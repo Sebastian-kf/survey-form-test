@@ -1,0 +1,66 @@
+/* Styles for centering the form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/wallpaper-lamborghini-car-with-smoke-galaxy-vibe-generated-ai_775052-353.jpg?w=2000");
+    background-size: cover;
+}
+
+/* Styles for the title */
+#title {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding-top: 40px;
+    font-weight: bold;
+}
+  
+/* Styles for the form */
+#survey-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    max-width: 600px; /* Adjust the width as needed */
+    padding: 40px; /* Adjust the padding as needed */
+    margin: auto;
+}
+  
+/* Styles for the form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+/* Styles for the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+  
+/* Styles for the form select dropdown */
+select {
+    height: 38px;
+}
+  
+/* Styles for the form buttons */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+/* Add more custom styles as needed */
+  
